@@ -5,11 +5,13 @@ public class ConditionalStatements {
 	public static void main(String[] args) {
 
 		ConditionalStatements IfTask = new ConditionalStatements();
-		IfTask.tc01();
-		IfTask.tc02();
-		IfTask.tc03();
-		IfTask.tc04();
-		IfTask.tc05();
+//		IfTask.tc01();
+//		IfTask.tc02();
+//		IfTask.tc03();
+//		IfTask.tc04();
+//		IfTask.tc05();
+//		IfTask.tc06();
+		IfTask.tc07();
 
 	}
 
@@ -118,5 +120,60 @@ public class ConditionalStatements {
 		}
 
 	}
+	
+//	Write a code for prime number between 400 to 700
+	private void tc06() {
+		System.out.println("Prime number between 400 to 700");
+		for (int i=400; i<=700; i++) {
+			if (i % 2 !=0 || i % 3 !=0) {
+				System.out.println("The ans is "  + i);
+				
+			}
+//			else if(i % 3 != 0) {
+//				System.out.println("The ans is "  + i);
+//
+//			}
+//			
+		}
+	}
+	
+//	Write the switch case to find the data types ( inputs: "A", "8", "2.11")
+	private void tc07() {
+//		String value = "2.11";
+//		switch(value) {
+//		case "1":
+//			System.out.println("Int");
+//			break;
+//		case "a":
+//			System.out.println("long");
+//			break;
+//		case "2.11":
+//			System.out.println("Double");
+//			break;
+//		}
+//			default :
+//				System.out.println("Invalid Input");
+//			
+		System.out.println("Number Pattern");
+		int n = 1;
+		for (int i = 1; i <=6; i++) {
+			for (int j = 1; j<=i; j++) {
+				System.out.print(j + " ");
+			}
+			System.out.println(" ");
+			
+		}
+		
+		
+		
+	}
+	 
+	
+	
+	
+	
+	
+	
+	
 
 }

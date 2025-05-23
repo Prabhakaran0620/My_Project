@@ -11,7 +11,6 @@ public class LoopingStatements {
 		ForLoopTasks.tc03();
 		ForLoopTasks.tc04();
 		ForLoopTasks.tc05();
-		
 
 	}
 
@@ -83,7 +82,7 @@ public class LoopingStatements {
 		
 		for (int i = 1; i<=10; i++) {
 			for (int j = 1; j<=i; j++) {
-				System.out.print("* ");
+				System.out.print(j + " ");
 //				System.out.print(j + " ");
 			}
 			
