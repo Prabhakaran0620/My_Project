@@ -5,12 +5,12 @@ public class ConditionalStatements {
 	public static void main(String[] args) {
 
 		ConditionalStatements IfTask = new ConditionalStatements();
-//		IfTask.tc01();
-//		IfTask.tc02();
-//		IfTask.tc03();
-//		IfTask.tc04();
-//		IfTask.tc05();
-//		IfTask.tc06();
+		IfTask.tc01();
+		IfTask.tc02();
+		IfTask.tc03();
+		IfTask.tc04();
+		IfTask.tc05();
+		IfTask.tc06();
 		IfTask.tc07();
 
 	}
