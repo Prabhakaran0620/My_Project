@@ -14,7 +14,7 @@ public class PatternSamples {
 
 		Scanner scanner = new Scanner(System.in);
 		PatternSamples demo = new PatternSamples(scanner);
-		demo.pattern01();
+//		demo.pattern01();
 		demo.pattern02();
 		demo.pattern03();
 		demo.pattern04();
